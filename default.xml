@@ -12,7 +12,7 @@
   <project remote="oe" revision="morty" name="meta-openembedded" path="sources/meta-openembedded"/>  
   <project remote="linux4sam" revision="morty" name="meta-atmel.git" path="sources/meta-atmel"/>  
 
-  <project remote="ams" revision="morty" name="sources/ams-bsp-base" path="sources/base">
+  <project remote="ams" revision="morty" name="sources/ams-base" path="sources/ams-bsp-base">
     <copyfile dest="README" src="README"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
