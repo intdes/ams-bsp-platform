@@ -6,17 +6,17 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/linux4sam" name="linux4sam"/>
-  <remote fetch="ssh://william@midgard/server/design/Code/AMS/ams01/yocto" name="ams"/>
+  <remote fetch="git://github.com/intdes" name="intdes"/>
 
   <project remote="yocto" revision="morty" name="poky" path="sources/poky"/>
   <project remote="oe" revision="morty" name="meta-openembedded" path="sources/meta-openembedded"/>  
   <project remote="linux4sam" revision="morty" name="meta-atmel.git" path="sources/meta-atmel"/>  
 
-  <project remote="ams" revision="morty" name="sources/ams-bsp-base" path="sources/base">
+  <project remote="intdes" revision="morty" name="ams-bsp-base" path="sources/base">
     <copyfile dest="README" src="README"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="ams" revision="morty" name="sources/meta-ams" path="sources/meta-ams"/>  
+  <project remote="intdes" revision="morty" name="meta-ams" path="sources/meta-ams">
 
 </manifest>
