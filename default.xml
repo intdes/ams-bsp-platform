@@ -17,6 +17,6 @@
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="intdes" revision="morty" name="meta-ams" path="sources/meta-ams">
+  <project remote="intdes" revision="morty" name="meta-ams" path="sources/meta-ams"/>
 
 </manifest>
