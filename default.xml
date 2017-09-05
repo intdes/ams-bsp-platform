@@ -8,9 +8,9 @@
   <remote fetch="git://github.com/linux4sam" name="linux4sam"/>
   <remote fetch="git://github.com/intdes" name="intdes"/>
 
-  <project remote="yocto" revision="morty" name="poky" path="sources/poky"/>
-  <project remote="oe" revision="morty" name="meta-openembedded" path="sources/meta-openembedded"/>  
-  <project remote="linux4sam" revision="morty" name="meta-atmel.git" path="sources/meta-atmel"/>  
+  <project remote="yocto" revision="fd7f2d644a94bbb951c0bed11af7deb35f1cfb22" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" name="meta-openembedded" path="sources/meta-openembedded"/>  
+  <project remote="linux4sam" revision="be3f605578cfdc3b7ae555ca5b9f9dfd5305b041" name="meta-atmel.git" path="sources/meta-atmel"/>  
 
   <project remote="intdes" revision="morty" name="ams-bsp-base" path="sources/base">
     <copyfile dest="README" src="README"/>
